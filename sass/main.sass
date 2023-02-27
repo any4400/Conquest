@@ -1,0 +1,420 @@
+*
+    box-sizing: border-box
+a
+    text-decoration: none
+header 
+    width: 100%
+    height: 85px
+    background-color: #FDFDFB
+    position: fixed
+    z-index: 2
+button
+    cursor: pointer
+.container
+    width: 1170px
+    margin: 0 auto
+    position: relative
+.header-body 
+    height: 85px
+    display: flex
+    align-items: center
+    justify-content: space-between
+    &__logo
+        width: 103px
+        height: 26px
+    &__menu
+        width: 422px
+    &__icons
+        width: 99px
+        display: flex
+        justify-content: space-between
+        align-items: center
+    &__icon
+        position: relative
+    &__count
+        min-width: 13px
+        height: 13px
+        position: absolute
+        top: -5px
+        right: -5px
+        border-radius: 50%
+        background-color: #E6C8B4
+        font-family: 'Roboto'
+        font-style: normal
+        font-weight: 400
+        font-size: 8px
+        text-align: center
+        color: #1B1A17
+        text-align: center
+        padding: 2px 2px
+        
+#search__count
+    display: none
+.menu
+    &__items
+        display: flex
+        justify-content: space-between
+        align-items: center
+        list-style-type: none
+        padding: 0
+    &__item
+        a
+            font-family: 'Roboto'
+            font-style: normal
+            font-weight: 400
+            font-size: 14px
+            color: #555248
+
+.divider
+    width: 50px
+    height: 1px
+    background-color: #8B8371
+    display: inline-block
+.price
+    width: 53px
+    display: flex
+    justify-content: space-between
+    align-items: baseline
+    &__value
+        font-family: 'Prata'
+        font-style: normal
+        font-weight: 400
+        font-size: 12px
+        color: rgba(27, 26, 23, 0.82)
+    &__divider
+        margin-left: 15px
+        align-self: flex-start
+        margin-top: 8px
+
+
+
+.promo  
+    height: 853px
+    background-color: #FDFDFB
+    &__body
+        height: 768px
+        padding: 321px 0 236px 0
+    &__info
+        display: inline-block
+        margin-left: 15px
+        position: absolute
+        z-index: 1
+    &__text
+        font-family: 'Roboto'
+        font-style: normal
+        font-weight: 300
+        font-size: 14px
+        line-height: 21px
+        color: rgba(27, 26, 23, 0.82)
+        width: 257px
+        margin-top: 39px
+    &__btn
+        width: 205px
+        height: 64px
+        background: #444240
+        font-family: 'Roboto'
+        font-style: normal
+        font-weight: 500
+        font-size: 12px
+        letter-spacing: 0.05em
+        text-transform: uppercase
+        color: #FFFFFF
+        text-align: center
+        padding: 26px 0
+        margin-top: 64px
+    &__ellipse
+        position: absolute
+        width: 496px
+        height: 944px
+        left: 372px
+        top: -9px
+        background: linear-gradient(180deg, rgba(234, 227, 212, 0) 0%, #EAE3D4 100%)
+        mix-blend-mode: normal
+        border-radius: 100% 0 0 100% / 50% 0 0 50%
+        z-index: 0
+    &__watch
+        position: absolute
+        left: 193px
+        top: 83px
+        width: 502px
+        height: 804px
+    &__divider
+        vertical-align: top
+        margin-top: 34px
+    &__price
+        width: 140px
+        justify-content: start
+        position: absolute
+        left: 486px
+        top: 223px
+        z-index: 1
+    &__value
+        font-size: 16px
+        margin-right: 7px
+    &__size
+        position: absolute
+        left: 968px
+        top: 721px
+        .size
+            font-family: 'Prata'
+            font-style: normal
+            font-weight: 400
+            font-size: 16px
+            line-height: 22px
+            color: #1B1A17
+            margin-left: 15px
+            display: inline-block
+        .divider
+            vertical-align: top
+            margin-top: 11px
+
+        
+
+h1
+    font-family: 'Playfair Display'
+    font-style: normal
+    font-weight: 400
+    font-size: 45px
+    line-height: 60px
+    color: #1B1A17
+    margin: 0
+    z-index: 1
+
+h2
+    font-family: 'Playfair Display'
+    font-style: normal
+    font-weight: 400
+    font-size: 30px
+    line-height: 40px
+    color: #1B1A17
+    margin: 0
+    margin-top: 16px
+
+.models
+    height: 720px
+    position: relative
+    z-index: 1
+    background-color: #FFFFFF
+    padding: 79px 0 86px 0
+    &__all
+        float: right
+        font-family: 'Roboto'
+        font-style: normal
+        font-weight: 500
+        font-size: 16px
+        color: #444240
+        &::after
+            content: " "
+            display: block
+            width: 101px
+            height: 1px
+            background-color: #C4C0B6
+            margin-top: 8px
+    &__items
+        display: flex
+        justify-content: space-between
+        align-items: center
+        margin-top: 52px
+    &__item
+        width: 370px
+        height: 467px
+        background-color: #FDFDFB
+        padding: 40px
+        position: relative
+    &__name
+        font-family: 'Playfair Display'
+        font-style: normal
+        font-weight: 700
+        font-size: 14px
+        color: rgba(27, 26, 23, 0.82)
+    &__price
+        margin-top: 10px
+    &__shadow
+        width: 315px
+        height: 315px
+        position: absolute
+        border-radius: 100%
+        background: linear-gradient(to right, rgba(226, 208, 196, 0), rgba(226, 208, 196, 1))
+        z-index: 0
+        top: 78px
+        left: 27px
+    &__round
+        width: 313px
+        height: 313px
+        position: absolute
+        border-radius: 100%
+        // background: url(../img/models/watch_1.png) no-repeat 50% 35%
+        background-color: #FDFDFB 
+        z-index: 1
+        top: 79px
+        left: 28px
+    &__watch
+        position: absolute
+        z-index: 1
+        left: 20px
+        top: 72px
+    &__more
+        font-family: 'Playfair Display'
+        font-style: normal
+        font-weight: 400
+        font-size: 16px
+        color: #1B1A17
+        margin-top: 324px
+        &::before
+            content:" "
+            width: 30px
+            height: 1px
+            background-color: #8B8371
+            display: inline-block
+            vertical-align: middle
+            margin-right: 18px
+       
+
+.clearfix
+    &::after
+    content: ''
+    clear: both
+    display: block
+   
+
+.title
+    text-align: center
+    font-family: 'Playfair Display'
+    font-style: normal
+    font-weight: 400
+    font-size: 32px
+    color: #1B1A17
+
+.quality
+    height: 519px
+    background: url("../img/quality/bg.png") center center/cover no-repeat
+    padding: 52px 0
+    &__img
+        margin-left: 80px
+    &__info
+        width: 377px
+        height: 243px
+        display: inline-block
+        vertical-align: top
+        margin-top: 88px
+        margin-left: 70px
+    &__title
+        text-align: left
+    &__text
+        font-family: 'Roboto'
+        font-style: normal
+        font-weight: 400
+        font-size: 16px
+        line-height: 150%
+        color: #444240
+        margin-top: 38px
+    &__btn
+        margin-top: 45px
+        width: 205px
+        height: 64px
+        background: #D4B098
+        border: none
+        font-family: 'Roboto'
+        font-style: normal
+        font-weight: 500
+        font-size: 12px
+        letter-spacing: 0.05em
+        color: #FFFFFF
+    &__pages
+        position: absolute
+        left: 377px
+        top: 434px
+    &__page
+        display: inline-block
+        vertical-align: baseline
+        margin-left: 20px
+        margin-right: 20px
+        font-family: 'Prata'
+        font-style: normal
+        font-weight: 400
+        font-size: 12px
+        color: rgba(27, 26, 23, 0.82)
+
+.news
+    height: 630px
+    padding-top: 81px
+    padding-bottom: 90px
+    &__info
+        width: 471
+        height: 258px
+        margin-top: 140px
+        display: inline-block
+        vertical-align: top
+    &__title
+        text-align: left
+    &__text
+        width: 376px
+        margin-top: 40px
+        font-family: 'Roboto'
+        font-style: normal
+        font-weight: 400
+        font-size: 16px
+        line-height: 27px
+        color: #444240
+        a
+            font-weight: bolder
+            color: #262421
+    &__social
+        width: 93px
+        height: 24px
+        margin-top: 119px
+        display: flex
+        justify-content: space-between
+        align-items: baseline
+    &__imgs
+        width: 629px
+        height: 460px
+        margin-left: 66px
+        display: -ms-inline-grid
+        display: inline-grid
+        grid-template-columns: 242px 377px
+        grid-auto-rows: 228px 222px
+        gap: 10px
+    &__img_3
+        grid-row-start: 1
+        grid-row-end: 3
+footer
+    min-height: 275px
+    background-color: #444240
+
+.footer-body
+    padding: 79px 0 67px 0
+    display: flex
+    justify-content: space-between
+    &__logo
+        width: 130px
+        height: 35px
+        position: absolute
+        top: 67px
+        left: 0
+   
+    &__title
+        font-family: 'Roboto'
+        font-style: normal
+        font-weight: 700
+        font-size: 14px
+        letter-spacing: 0.07em
+        text-transform: uppercase
+        color: #FFFFFF
+    &__list
+        list-style-type: none
+        padding: 0
+        margin: 0
+        margin-top: 33px
+        li
+            margin-bottom: 15px
+    &__link
+        font-family: 'Roboto'
+        font-style: normal
+        font-weight: 400
+        font-size: 12px
+        color: rgba(255, 255, 255, 0.75)
+    &__contacts
+        margin-top: 53px
+    
+   
